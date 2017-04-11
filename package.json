@@ -1,1 +1,40 @@
-{     "devDependencies": {         "redux-logger": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-redux-logger",     "homepage": "https://github.com/npmtest/node-npmtest-redux-logger",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-redux-logger.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [redux-logger (v3.0.1)](https://github.com/theaqua/redux-logger#readme) [![npm package](https://img.shields.io/npm/v/npmtest-redux-logger.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-logger) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-logger.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-logger)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "redux-logger": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-redux-logger",
+    "keywords": [
+        "coverage",
+        "test",
+        "redux-logger"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_redux_logger.js",
+    "name": "npmtest-redux-logger",
+    "nameAlias": "npmtest_redux_logger",
+    "nameOriginal": "npmtest-redux-logger",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-redux-logger.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
