@@ -1,0 +1,21 @@
+<svg height="286" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="286" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">  0.  2017-04-11 22:45:16 +0000    81330 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-11 22:45:16 +0000     1060 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-11 22:45:16 +0000     9617 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-11 22:45:16 +0000    29373 bytes  dist/index.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-11 22:45:16 +0000    11709 bytes  dist/index.min.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-11 22:45:16 +0000     5348 bytes  lib/core.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-11 22:45:16 +0000      949 bytes  lib/defaults.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-11 22:45:16 +0000     2069 bytes  lib/diff.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-11 22:45:16 +0000      741 bytes  lib/helpers.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-11 22:45:16 +0000     5396 bytes  lib/index.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-11 22:45:16 +0000     4560 bytes  package.json</tspan>
+<tspan x="10" y="202"> 11.  2017-04-11 22:45:16 +0000     4103 bytes  src/core.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-11 22:45:16 +0000      531 bytes  src/defaults.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-11 22:45:16 +0000     1406 bytes  src/diff.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-11 22:45:16 +0000      545 bytes  src/helpers.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-11 22:45:16 +0000     3923 bytes  src/index.js</tspan>
+</text>
+</svg>
